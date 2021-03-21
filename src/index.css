@@ -1,0 +1,43 @@
+#nav{
+  background-color: blue;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  
+  
+}
+#nav h1{
+  color: red;
+}
+
+#nav ul li a{
+  color: red;
+  display: flex;
+  flex-direction: row;
+}
+
+#nav ul{
+  display: flex;
+  list-style: none;
+  justify-content: space-between;
+  flex-direction: row;
+}
+
+ul li a{
+  margin: 10px;
+  text-decoration: none;
+  color: white;
+}
+
+.hero{
+   background-color:turquoise;
+   align-items: center;
+   height: 91.7vh;
+}
+
+.hero .div{
+  align-items: center;
+  text-align: center;
+
+}
+
